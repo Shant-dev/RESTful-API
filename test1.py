@@ -212,6 +212,3 @@ app.add_route('/update', updateResources())
 app.add_route('/delete/{email}', deleteResources())
 app.add_route('/analytics', Analisys())
 app.add_route('/img', OpenImageResource())
-
-#ngrok http http://localhost:8000
-#https://0ea0-87-228-140-154.ngrok-free.app
